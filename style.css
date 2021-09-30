@@ -14,6 +14,7 @@ html{
 body{
     font-family: 'Mulish', sans-serif;
     background: #FFFFFF;
+    overflow-x: hidden;
 }
 
 a{
@@ -225,6 +226,19 @@ header .fas{
     max-width: 65%;
     margin: auto;
 }
+
+.serv-text p{
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    font-weight: 300;
+}
+
+.serv-text h2{
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 3.5rem
+}
+
 
 .serv-text h2, .serv-text p{
     margin: 1rem auto;
@@ -672,7 +686,7 @@ footer{
     }
     
     .intro-text p{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     .learn-info h4, .app-info h4{
         font-size: 1.8rem;
@@ -713,10 +727,6 @@ footer{
     .article{
         height: 400px;
     }
-    .vector2 img{
-        right: -200px;
-        top: -55px;
-    }
 }
 
 @media (max-width: 768px) {
@@ -752,7 +762,7 @@ footer{
 
 @media (max-width: 600px) {
     html{
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 
@@ -767,10 +777,15 @@ footer{
 
 @media(max-width: 480px){
     html{
-        font-size: 11px;
+        font-size: 12px;
     }
     .presentation, .flexlearn, .mob-app{
         flex-direction: column;
+    }
+
+    .introduction{
+        width: 98%;
+        margin: 0 auto;
     }
     
     .services-grid{
